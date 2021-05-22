@@ -3,6 +3,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { MdMic } from "react-icons/md";
 
 import logo from "../../assets/google.png";
+import Button from "../Button";
 import classes from "./MainBody.module.scss";
 
 const MainBody = () => {
@@ -13,11 +14,22 @@ const MainBody = () => {
           <img src={logo} alt="google-logo" />
         </div>
         <div className={classes.input_container}>
-          <AiOutlineSearch />
+          <div className={`${classes.icon} ${classes.search}`}>
+            <a href="!#">
+              <AiOutlineSearch />
+            </a>
+          </div>
           <input type="text" />
-          <MdMic />
+          <div className={`${classes.icon} ${classes.mic}`}>
+            <a href="!#">
+              <MdMic />
+            </a>
+          </div>
         </div>
-        <div></div>
+        <div>
+          <Button>Google Search</Button>
+          <Button>I'm Feeling Lucky</Button>
+        </div>
         <div></div>
       </div>
     </Fragment>
