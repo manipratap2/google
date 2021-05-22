@@ -30,7 +30,16 @@ const MainBody = () => {
           <Button>Google Search</Button>
           <Button>I'm Feeling Lucky</Button>
         </div>
-        <div></div>
+        <div className={classes.language}>
+          <p>Google offered in:</p>
+          <div>
+            <a href="!#">हिन्दी</a> <a href="!#">বাংলা</a>{" "}
+            <a href="!#">తెలుగు</a> <a href="!#">मराठी</a>{" "}
+            <a href="!#">தமிழ்</a>
+            <a href="!#">ગુજરાતી</a> <a href="!#">ಕನ್ನಡ</a>{" "}
+            <a href="!#">മലയാളം</a> <a href="!#">ਪੰਜਾਬੀ</a>
+          </div>
+        </div>
       </div>
     </Fragment>
   );
