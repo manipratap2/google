@@ -1,10 +1,12 @@
 import "./App.css";
-import MainPage from "./components/pages/MainPage";
+import MainBody from "./components/pages/MainBody";
+import MainNav from "./components/pages/MainNav";
 
 function App() {
   return (
     <div className="App">
-      <MainPage />
+      <MainNav />
+      <MainBody />
     </div>
   );
 }

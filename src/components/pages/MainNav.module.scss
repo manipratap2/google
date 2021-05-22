@@ -34,6 +34,13 @@
             padding: 9px 15px;
             min-width: 60px;
             border-radius: 5px;
+            font-size: 17px;
+
+            &:active,
+            &:hover,
+            &:visited {
+                opacity: 0.8;
+            }
         }
     }
 }

@@ -1,0 +1,27 @@
+img {
+    width: 272px;
+    height: 92px;
+}
+
+.MainBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.input_container {
+    position:relative;
+    padding:0 0 0 20px;
+    margin:0 20px;
+    direction: rtl;
+    width: 200px;
+    
+    input {
+        height:20px;
+        margin:0;
+        padding-right: 30px;
+        width: 100%;
+    }
+}
