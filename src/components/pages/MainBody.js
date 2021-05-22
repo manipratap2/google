@@ -1,4 +1,6 @@
 import { Fragment } from "react";
+import { AiOutlineSearch } from "react-icons/ai";
+import { MdMic } from "react-icons/md";
 
 import logo from "../../assets/google.png";
 import classes from "./MainBody.module.scss";
@@ -11,9 +13,9 @@ const MainBody = () => {
           <img src={logo} alt="google-logo" />
         </div>
         <div className={classes.input_container}>
-          <img alt="icon" />
+          <AiOutlineSearch />
           <input type="text" />
-          <img alt="icon" />
+          <MdMic />
         </div>
         <div></div>
         <div></div>
